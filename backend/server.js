@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://2025jashj_db_user:41EXDfcDfEbNxN2n@jash.n4hpsig.mongodb.net/main';
+const MONGO_URI = process.env.MONGO_URI
 
 mongoose
   .connect(MONGO_URI)

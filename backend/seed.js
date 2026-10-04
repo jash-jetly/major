@@ -6,7 +6,7 @@ const User = require('./models/User');
 const Project = require('./models/Project');
 const Bid = require('./models/Bid');
 
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://2025jashj_db_user:41EXDfcDfEbNxN2n@jash.n4hpsig.mongodb.net/main';
+const MONGO_URI = process.env.MONGO_URI
 
 async function seedDatabase() {
   try {

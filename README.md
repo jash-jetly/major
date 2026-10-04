@@ -242,7 +242,7 @@ npm install
 Configure `backend/.env`:
 ```env
 PORT=5001
-MONGO_URI=mongodb+srv://2025jashj_db_user:41EXDfcDfEbNxN2n@jash.n4hpsig.mongodb.net/main
+MONGO_URI=
 JWT_SECRET=mysecretkey123456studentbtechproject
 ```
 *(Note: If using MongoDB Atlas, set `MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/main?retryWrites=true&w=majority`)*
