@@ -6,7 +6,7 @@ const User = require('./models/User');
 const Project = require('./models/Project');
 const Bid = require('./models/Bid');
 
-const MONGO_URI = process.env.MONGO_URI
+const MONGO_URI = process.env.MONGO_URI;
 
 async function seedDatabase() {
   try {
